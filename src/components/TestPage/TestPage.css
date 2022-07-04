@@ -6,7 +6,9 @@
     font-family: 'Roboto', sans-serif;
     
 }
+@media (min-width: 768px){
 .app {
+    object-fit: cover;
     margin-left: 150px;
     background: #252d4a;
     width: 900px;
@@ -19,11 +21,14 @@
     grid-template-rows: repeat(2, 100px);
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
 }
+}
 
+@media (min-width: 768px){
 .quizz {
    display: flex; 
    justify-content: space-between;
    width: 100%;
+}
 }
 
 button {

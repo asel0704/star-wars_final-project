@@ -3,8 +3,7 @@ import PeoplePage from '@containers/PeoplePage';
 import PersonPage from '@containers/PersonPage';
 import SearchPage from '@containers/SearchPage';
 import FavoritesPage from '@containers/FavoritesPage';
-import {TestPage}  from '../components/TestPage/TestPage';
-
+import { TestPage } from '../components/TestPage/TestPage';
 
 const routesConfig = [
     {
@@ -27,11 +26,11 @@ const routesConfig = [
         path: '/favorites',
         element: <FavoritesPage />
     },
-     {
+    {
         path: '/test',
         element: <TestPage />
     },
-   
+
 ];
 
 export default routesConfig;

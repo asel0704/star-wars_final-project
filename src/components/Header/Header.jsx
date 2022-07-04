@@ -22,15 +22,16 @@ const Header = () => {
 
     return (
         <div className={styles.container}>
-            <img className={styles.logo} src={icon} alt="Star Wars"/>
+            <img className={styles.logo} src={icon} alt="Star Wars" />
 
             <ul className={styles.list__container}>
                 <li><NavLink to="/">Главная</NavLink></li>
                 <li><NavLink to="/people/?page=1">Персонажи</NavLink></li>
                 <li><NavLink to="/search">Поиск персонажей</NavLink></li>
                 <li><NavLink to="/test">Тест</NavLink></li>
-            </ul>
-         <Favorite />
+                </ul>
+             <Favorite />
+
         </div>
     )
 }
